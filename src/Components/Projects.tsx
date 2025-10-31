@@ -37,7 +37,7 @@ export default function Projects({
             onBack={() => setActiveProject(null)}
           />
         );
-      case "Final Project":
+      case "Pas Commun(s)":
         return (
           <FinalProject
             project={activeProject}
@@ -57,9 +57,7 @@ export default function Projects({
   return (
     <section className="py-4">
       <h2 className="text-3xl font-bold mb-8 text-center">
-        {selectedTag === null
-          ? "All my projects"
-          : `\"${selectedTag}\" projects`}
+        {selectedTag === null ? "All my projects" : `${selectedTag}`}
       </h2>
 
       {filteredProjects.length === 0 ? (

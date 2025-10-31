@@ -131,12 +131,12 @@ export default function FinalProject({ project, onBack }: Props) {
 
       <div className="w-full fade-in">
         <img
-          src={"/images/final_project/VISUEL2_LONG_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL2_LONG_diplome.jpg"}
           alt={`${project.title} - image 1`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL3_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL3_9_16_diplome.jpg"}
           alt={`${project.title} - image 2`}
           className="w-full h-full object-cover"
         />
@@ -155,17 +155,17 @@ export default function FinalProject({ project, onBack }: Props) {
 
       <div className="w-full fade-in">
         <img
-          src={"/images/final_project/VISUEL4_LONG_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL4_LONG_diplome.jpg"}
           alt={`${project.title} - image 3`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL5_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL5_9_16_diplome.jpg"}
           alt={`${project.title} - image 4`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL6_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL6_9_16_diplome.jpg"}
           alt={`${project.title} - image 5`}
           className="w-full h-full object-cover"
         />
@@ -180,22 +180,22 @@ export default function FinalProject({ project, onBack }: Props) {
       </div>
       <div className="w-full fade-in">
         <img
-          src={"/images/final_project/VISUEL7_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL7_9_16_diplome.jpg"}
           alt={`${project.title} - image 6`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL8_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL8_9_16_diplome.jpg"}
           alt={`${project.title} - image 7`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL9_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL9_9_16_diplome.jpg"}
           alt={`${project.title} - image 8`}
           className="w-full h-full object-cover"
         />
         <img
-          src={"/images/final_project/VISUEL10_9_16_diplome.jpg"}
+          src={"/jade_portfolio/images/final_project/VISUEL10_9_16_diplome.jpg"}
           alt={`${project.title} - image 9`}
           className="w-full h-full object-cover"
         />

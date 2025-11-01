@@ -157,17 +157,17 @@ export default function FinalProject({ project, onBack }: Props) {
         <img
           src={"/jade_portfolio/images/final_project/VISUEL4_LONG_diplome.jpg"}
           alt={`${project.title} - image 3`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
         <img
           src={"/jade_portfolio/images/final_project/VISUEL5_9_16_diplome.jpg"}
           alt={`${project.title} - image 4`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
         <img
           src={"/jade_portfolio/images/final_project/VISUEL6_9_16_diplome.jpg"}
           alt={`${project.title} - image 5`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
       </div>
       <div className="max-w-6xl mx-auto py-16 px-6 md:px-12 fade-in">
@@ -182,22 +182,22 @@ export default function FinalProject({ project, onBack }: Props) {
         <img
           src={"/jade_portfolio/images/final_project/VISUEL7_9_16_diplome.jpg"}
           alt={`${project.title} - image 6`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
         <img
           src={"/jade_portfolio/images/final_project/VISUEL8_9_16_diplome.jpg"}
           alt={`${project.title} - image 7`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
         <img
           src={"/jade_portfolio/images/final_project/VISUEL9_9_16_diplome.jpg"}
           alt={`${project.title} - image 8`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
         <img
           src={"/jade_portfolio/images/final_project/VISUEL10_9_16_diplome.jpg"}
           alt={`${project.title} - image 9`}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover my-4"
         />
       </div>
 
@@ -206,7 +206,7 @@ export default function FinalProject({ project, onBack }: Props) {
           onClick={onBack}
           className="px-4 py-2 hover:bg-gray-100 transition"
         >
-          ← Back to all projects
+          ← Back to projects
         </button>
       </div>
     </section>

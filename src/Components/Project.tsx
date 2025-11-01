@@ -167,7 +167,7 @@ export default function Project({ project, onBack }: Props) {
                 key={index}
                 src={imgSrc}
                 alt={`${project.title} - image ${index + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover my-4"
               />
             ))}
           </div>
@@ -188,7 +188,7 @@ export default function Project({ project, onBack }: Props) {
             <img
               src={project.bottomImg}
               alt={`${project.title} - bottom image`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover my-4"
             />
           </div>
         </div>

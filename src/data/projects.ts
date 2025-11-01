@@ -88,7 +88,7 @@ export const projects: ProjectType[] = [
       "/jade_portfolio/images/bachelor_degree/VISUEL3_9_16_memoire.jpg",
     ],
     video: "/jade_portfolio/videos/bachelor_degree/VISUEL1_9_16_memoire.mp4",
-    tags: ["EDITION", "FINAL PROJECT", "VISUAL IDENTITY"],
+    tags: ["EDITION", "FINAL PROJECT"],
     type: "Bachelor’s Degree dissertation",
     missions: ["Research and writing", "Editorial and print design"],
   },

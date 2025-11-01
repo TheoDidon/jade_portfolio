@@ -73,7 +73,7 @@ export default function FinalProject({ project, onBack }: Props) {
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 py-20 px-6 md:px-12">
-        <div className="md:w-2/3 lg:w-3/4 fade-in space-y-6">
+        <div className="md:w-2/3 lg:w-3/4 fade-in space-y-6 pr-24">
           <h2 className="font-futura font-bold text-2xl leading-tight">
             Pas Commun(s)
           </h2>
@@ -143,7 +143,7 @@ export default function FinalProject({ project, onBack }: Props) {
       </div>
 
       <div className="max-w-6xl mx-auto py-16 px-6 md:px-12 fade-in">
-        <div className="md:w-2/3 lg:w-3/4 fade-in space-y-6">
+        <div className="md:w-2/3 lg:w-3/4 fade-in space-y-6 pr-24">
           <p className="font-geologica font-light text-lg text-gray-700 leading-relaxed text-justify">
             The visual identity of the project is shaped through graphic
             research based on the typology and unique features of the future

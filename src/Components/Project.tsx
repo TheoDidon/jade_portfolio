@@ -86,7 +86,7 @@ export default function Project({ project, onBack }: Props) {
       </div>
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 py-16 px-6 md:px-12">
-        <div className="md:w-2/3 lg:w-3/4 space-y-4 fade-in">
+        <div className="md:w-2/3 lg:w-3/4 space-y-4 fade-in pr-24">
           <h2 className="font-futura font-bold text-2xl leading-tight">
             {project.title}
           </h2>
@@ -174,7 +174,7 @@ export default function Project({ project, onBack }: Props) {
         </div>
       )}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 py-2 px-6 md:px-12">
-        <div className="md:w-2/3 lg:w-3/4 space-y-4 fade-in">
+        <div className="md:w-2/3 lg:w-3/4 space-y-4 fade-in mr-24">
           {project.bottomDescription && (
             <p className="font-geologica font-light text-lg text-gray-700 leading-relaxed text-justify">
               {project.bottomDescription}
